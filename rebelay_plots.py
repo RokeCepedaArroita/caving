@@ -123,6 +123,7 @@ def plot_optimum_rebelay_length_both_ways(rope_length, max_cavers, ascent_speed=
     ax.set_ylim([0, rope_length])
     ax.set_title(f'Rope Length = {rope_length} m')
     plt.legend()
+    ax.set_axisbelow(True)
     ax.grid(True, linestyle='--')
     plt.show()
 
